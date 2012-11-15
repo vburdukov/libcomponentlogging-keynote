@@ -13,6 +13,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    lcl_configure_by_name("*", lcl_vTrace);
+    lcl_log(lcl_cAD, lcl_vInfo, @"launched");
     return YES;
 }
 							

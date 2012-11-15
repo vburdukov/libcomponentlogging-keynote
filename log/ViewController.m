@@ -20,6 +20,12 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    lcl_log(lcl_cUI, lcl_vCritical, @"should implement viewDidAppear");
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

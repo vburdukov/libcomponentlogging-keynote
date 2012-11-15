@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60A3DCD60DE42E8B34D41EB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D15C759FB6434A8DE1F4E4 /* libPods.a */; };
 		DF45985416524DE6002402D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45985316524DE6002402D3 /* UIKit.framework */; };
 		DF45985616524DE6002402D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45985516524DE6002402D3 /* Foundation.framework */; };
 		DF45985816524DE6002402D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45985716524DE6002402D3 /* CoreGraphics.framework */; };
@@ -18,13 +19,16 @@
 		DF45986A16524DE6002402D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF45986916524DE6002402D3 /* Default-568h@2x.png */; };
 		DF45986D16524DE6002402D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF45986B16524DE6002402D3 /* MainStoryboard.storyboard */; };
 		DF45987016524DE6002402D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45986F16524DE6002402D3 /* ViewController.m */; };
+		DF45988E1652533D002402D3 /* lcl_config_components.h.pods in Resources */ = {isa = PBXBuildFile; fileRef = DF45988B1652533D002402D3 /* lcl_config_components.h.pods */; };
+		DF45988F1652533D002402D3 /* lcl_config_extensions.h.pods in Resources */ = {isa = PBXBuildFile; fileRef = DF45988C1652533D002402D3 /* lcl_config_extensions.h.pods */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E247E21BE184483B15656DE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		DF45984F16524DE6002402D3 /* log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = log.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF45985316524DE6002402D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DF45985516524DE6002402D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DF45985716524DE6002402D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF45985316524DE6002402D3 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF45985516524DE6002402D3 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF45985716524DE6002402D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DF45985B16524DE6002402D3 /* log-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "log-Info.plist"; sourceTree = "<group>"; };
 		DF45985D16524DE6002402D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF45985F16524DE6002402D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +41,10 @@
 		DF45986C16524DE6002402D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		DF45986E16524DE6002402D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DF45986F16524DE6002402D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF45988B1652533D002402D3 /* lcl_config_components.h.pods */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lcl_config_components.h.pods; sourceTree = "<group>"; };
+		DF45988C1652533D002402D3 /* lcl_config_extensions.h.pods */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lcl_config_extensions.h.pods; sourceTree = "<group>"; };
+		DF45988D1652533D002402D3 /* LCLLogFileConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLLogFileConfig.h; sourceTree = "<group>"; };
+		E7D15C759FB6434A8DE1F4E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 				DF45985416524DE6002402D3 /* UIKit.framework in Frameworks */,
 				DF45985616524DE6002402D3 /* Foundation.framework in Frameworks */,
 				DF45985816524DE6002402D3 /* CoreGraphics.framework in Frameworks */,
+				C60A3DCD60DE42E8B34D41EB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +65,13 @@
 		DF45984416524DE6002402D3 = {
 			isa = PBXGroup;
 			children = (
+				DF45988B1652533D002402D3 /* lcl_config_components.h.pods */,
+				DF45988C1652533D002402D3 /* lcl_config_extensions.h.pods */,
+				DF45988D1652533D002402D3 /* LCLLogFileConfig.h */,
 				DF45985916524DE6002402D3 /* log */,
 				DF45985216524DE6002402D3 /* Frameworks */,
 				DF45985016524DE6002402D3 /* Products */,
+				1E247E21BE184483B15656DE /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +89,7 @@
 				DF45985316524DE6002402D3 /* UIKit.framework */,
 				DF45985516524DE6002402D3 /* Foundation.framework */,
 				DF45985716524DE6002402D3 /* CoreGraphics.framework */,
+				E7D15C759FB6434A8DE1F4E4 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +131,7 @@
 				DF45984B16524DE6002402D3 /* Sources */,
 				DF45984C16524DE6002402D3 /* Frameworks */,
 				DF45984D16524DE6002402D3 /* Resources */,
+				D6D32C4AE34749378CAA2084 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,10 +178,29 @@
 				DF45986816524DE6002402D3 /* Default@2x.png in Resources */,
 				DF45986A16524DE6002402D3 /* Default-568h@2x.png in Resources */,
 				DF45986D16524DE6002402D3 /* MainStoryboard.storyboard in Resources */,
+				DF45988E1652533D002402D3 /* lcl_config_components.h.pods in Resources */,
+				DF45988F1652533D002402D3 /* lcl_config_extensions.h.pods in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6D32C4AE34749378CAA2084 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF45984B16524DE6002402D3 /* Sources */ = {
@@ -253,6 +287,7 @@
 		};
 		DF45987416524DE6002402D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E247E21BE184483B15656DE /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "log/log-Prefix.pch";
@@ -264,6 +299,7 @@
 		};
 		DF45987516524DE6002402D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E247E21BE184483B15656DE /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "log/log-Prefix.pch";
@@ -292,6 +328,7 @@
 				DF45987516524DE6002402D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
