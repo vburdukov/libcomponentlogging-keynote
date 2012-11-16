@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C60A3DCD60DE42E8B34D41EB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D15C759FB6434A8DE1F4E4 /* libPods.a */; };
+		DF4091AC1656168C001EF760 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4091AB1656168C001EF760 /* Network.m */; };
 		DF45985416524DE6002402D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45985316524DE6002402D3 /* UIKit.framework */; };
 		DF45985616524DE6002402D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45985516524DE6002402D3 /* Foundation.framework */; };
 		DF45985816524DE6002402D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45985716524DE6002402D3 /* CoreGraphics.framework */; };
@@ -25,6 +26,10 @@
 
 /* Begin PBXFileReference section */
 		1E247E21BE184483B15656DE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DF08BFBB1656214400101F8A /* LCLSystemLogConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLSystemLogConfig.h; sourceTree = "<group>"; };
+		DF08BFCB165627B900101F8A /* LCLUserDefaultsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLUserDefaultsConfig.h; sourceTree = "<group>"; };
+		DF4091AA1656168C001EF760 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		DF4091AB1656168C001EF760 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
 		DF45984F16524DE6002402D3 /* log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = log.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF45985316524DE6002402D3 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF45985516524DE6002402D3 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,6 +73,8 @@
 				DF45988B1652533D002402D3 /* lcl_config_components.h.pods */,
 				DF45988C1652533D002402D3 /* lcl_config_extensions.h.pods */,
 				DF45988D1652533D002402D3 /* LCLLogFileConfig.h */,
+				DF08BFBB1656214400101F8A /* LCLSystemLogConfig.h */,
+				DF08BFCB165627B900101F8A /* LCLUserDefaultsConfig.h */,
 				DF45985916524DE6002402D3 /* log */,
 				DF45985216524DE6002402D3 /* Frameworks */,
 				DF45985016524DE6002402D3 /* Products */,
@@ -102,6 +109,8 @@
 				DF45986B16524DE6002402D3 /* MainStoryboard.storyboard */,
 				DF45986E16524DE6002402D3 /* ViewController.h */,
 				DF45986F16524DE6002402D3 /* ViewController.m */,
+				DF4091AA1656168C001EF760 /* Network.h */,
+				DF4091AB1656168C001EF760 /* Network.m */,
 				DF45985A16524DE6002402D3 /* Supporting Files */,
 			);
 			path = log;
@@ -210,6 +219,7 @@
 				DF45986016524DE6002402D3 /* main.m in Sources */,
 				DF45986416524DE6002402D3 /* AppDelegate.m in Sources */,
 				DF45987016524DE6002402D3 /* ViewController.m in Sources */,
+				DF4091AC1656168C001EF760 /* Network.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

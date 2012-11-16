@@ -13,8 +13,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    lcl_configure_by_name("*", lcl_vTrace);
-    lcl_log(lcl_cAD, lcl_vInfo, @"launched");
+    [LCLUserDefaults restoreLogLevelSettingsFromStandardUserDefaults];
+//    lcl_configure_by_component(lcl_cAD, lcl_vDebug);
+//    lcl_configure_by_component(lcl_cNT, lcl_vTrace);
+//    lcl_configure_by_component(lcl_cUI, lcl_vWarning);
+//    [LCLUserDefaults storeLogLevelSettingsToStandardUserDefaults];
+//    [[NSUserDefaults standardUserDefaults] synchronize];
+//    lcl_log(lcl_cAD, lcl_vInfo, @"didFinishLaunching");
+    qlinfo_c(lcl_cAD, @"didFinishLaunching");
     return YES;
 }
 							
